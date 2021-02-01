@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- What is a form - a way of getting/collecting information -->
+    <!-- action - when the form is submitted, where should it go? -->
+    <!-- Method - how the information will be passed to the server -->
+    <!-- GET - data is passed to the url or the request -->
+    <!-- POST - information is passed in the message of the body of the request -->
+
+    <!-- <form method="GET">
+<p>Enter Name:</p>
+<input type="text" placeholder="Enter a Name!" value="Eddy" required>
+<p>Enter Password:</p>
+<input type="password" placeholder="Enter Password" required>
+<button type="submit">Submit</button>
+<button type="reset">Clear</button>
+</form> -->
+
+    <form method="GET" action="">
+        <fieldset>
+            <legend>1 Your Basic Info</legend>
+            <label>Enter your username:</label>
+            <input type="text" name="userName">
+            <label>Enter your password:</label>
+            <input type="password" name="password">
+            <label>Enter your email:</label>
+            <input type="email" name="email" required>
+            <label>Enter your telephone:</label>
+            <input type="tel" name="tel">
+            <!-- <label>Enter your website url:</label>
+            <input type="text" name="url"> -->
+            <label>What is your gender?</label>
+            <input type="radio" id="gender" name="sex">Male</input>
+            <input type="radio" id="gender" name="sex">Female</input>
+            <input type="radio" id="gender" name="sex">Other</input>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+        </fieldset>
+        <fieldset>
+            <legend>Misc</legend>
+        </fieldset>
+        <button type="submit">Sign Up</button>
+        <button type="reset">Clear</button>
+    </form>
+
+
+
+</body>
+
+</html>
